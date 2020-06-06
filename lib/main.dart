@@ -183,7 +183,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 //导航到新路由
                 Navigator.push( context,
                     MaterialPageRoute(builder: (context) {
-                      return NewRoute();
+                      return TipRoute(text: 'this is good',);
                     }));
               },
             ),
