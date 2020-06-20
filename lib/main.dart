@@ -15,14 +15,21 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
           ),
           body: Center(
-            child: Text('Hello baby'),
-          ),
+            child: new Column(
+              children:<Widget>[
+                new Text('Hello baby'),
+                new RaisedButton(
+                    child: Text("normal"),
+                    onPressed: () {print('active');},
+                  ),
+              ]
+          )),
           floatingActionButton: FloatingActionButton(
             child: Text('Press me'),
             onPressed: () {
               print('Hi there');
             },
-          ),
+          )
         )
 
     );
