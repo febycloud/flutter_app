@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutterapp/models/user_model.dart';
 
 class Message {
